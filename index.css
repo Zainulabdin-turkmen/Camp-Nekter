@@ -21,12 +21,15 @@ div {
 .green,
 .light-blue,
 img .yellow {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .green {
-    background-color: #c7efc0;
+  background-color: #c7efc0;
+}
+.yellow {
+  background-color: #efeac0;
 }
 
 .Camp-Nekter {
