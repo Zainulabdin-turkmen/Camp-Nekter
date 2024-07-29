@@ -12,6 +12,10 @@ section {
   grid-template-columns: repeat(3, 153px);
   grid-template-rows: repeat(3, 153px);
   gap: 0.8rem;
+  grid-template-areas:
+    "green green blue "
+    "fire yellow tent"
+    "Camp Camp tent";
 }
 
 .green,
