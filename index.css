@@ -2,8 +2,7 @@ body {
   margin: 0;
 }
 
-h1,
-p {
+h1 {
   margin: 0;
 }
 
@@ -16,6 +15,9 @@ section {
     "green green blue "
     "fire yellow tent"
     "Camp Camp tent";
+  justify-content: center;
+  margin-top: 10rem;
+  margin-bottom: 11rem;
 }
 
 .green,
@@ -41,4 +43,19 @@ img,
 
 .Camp-Nekter {
   background-color: #efc9c0;
+}
+
+.green {
+  grid-area: green;
+}
+
+.tent {
+  grid-area: tent;
+}
+
+.Camp-Nekter {
+  grid-area: Camp;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  box-sizing: border-box;
 }
