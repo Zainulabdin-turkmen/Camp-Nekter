@@ -7,11 +7,27 @@ p {
   margin: 0;
 }
 
-section div {
+section {
+  display: grid;
+  grid-template-columns: repeat(3, 153px);
+  grid-template-rows: repeat(3, 153px);
+}
+
+div {
   width: 100%;
   height: 100%;
 }
 
 .green {
   background-color: #c7efc0;
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.Camp-Nekter {
+  background-color: #efc9c0;
 }
