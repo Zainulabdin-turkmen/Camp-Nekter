@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+.green {
+  background-color: #c7efc0;
+}
