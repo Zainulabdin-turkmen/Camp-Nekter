@@ -70,4 +70,8 @@ img,
       "blue fire tent"
       "Camp yellow tent";
   }
+
+  img {
+    object-fit: cover;
+  }
 }
