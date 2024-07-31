@@ -61,4 +61,13 @@ img,
 }
 
 @media only screen and (min-width: 800px) {
+  section {
+    display: grid;
+    grid-template-columns: repeat(3, 153px);
+    /* grid-template-rows: repeat(3, 195px); */
+    grid-template-areas:
+      "green green green"
+      "blue fire tent"
+      "Camp yellow tent";
+  }
 }
